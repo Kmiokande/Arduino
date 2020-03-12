@@ -45,6 +45,13 @@ void robo_frente() {
   digitalWrite(IN4,LOW); // LOW
 }
 
+void robo_tras() {
+  digitalWrite(IN1,LOW);
+  digitalWrite(IN2,HIGH);
+  digitalWrite(IN3,LOW);
+  digitalWrite(IN4,HIGH);
+}
+
 void robo_esquerda() {
   digitalWrite(IN1,HIGH);
   digitalWrite(IN2,LOW);
@@ -61,6 +68,8 @@ void robo_parado() {
 
 void decisao() {
   robo_parado();
+  delay(500);
+  robo_tras();
   delay(500);
   robo_esquerda();
   delay(400);
