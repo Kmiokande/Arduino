@@ -2,6 +2,14 @@
 
 ![LiquidCrystal I2C Fritzing Project](LiquidCrystal_I2C.png)
 
-1. Para controlar o módulo I2C, utilize a biblioteca New LiquidCrystal:
+## Preparations
 
-- [Repositório New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
+> HARDWARE
+
+- 1x - UNO Board + USB Cable
+- 1x - LiquidCrystal 16x2 + I2C Module
+- Jumpers
+
+> SOFTWARE
+
+- [New LiquidCrystal Repository](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
