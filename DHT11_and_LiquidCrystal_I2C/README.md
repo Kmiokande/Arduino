@@ -2,10 +2,17 @@
 
 ![DHT11 and LiquidCrystal I2C Fritzing Project](DHT11_and_LiquidCrystal_I2C.png)
 
-1. Para controlar o módulo I2C, utilize a biblioteca New LiquidCrystal:
+## Preparations
 
-- [Repositório New LiquidCrystal](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
+> HARDWARE
 
-2. Para controlar o sensor DHT, utilize a biblioteca DHT-sensor-library:
+- 1x - UNO Board + USB Cable
+- 1x - Protoboard
+- 1x - DHT11
+- 1x - LiquidCrystal 16x2 + I2C Module
+- Jumpers
 
-- [Repositório DHT-sensor-library](https://github.com/adafruit/DHT-sensor-library)
+> SOFTWARE
+
+- [New LiquidCrystal Repository](https://bitbucket.org/fmalpartida/new-liquidcrystal/wiki/Home)
+- [DHT-sensor-library Repository](https://github.com/adafruit/DHT-sensor-library)
