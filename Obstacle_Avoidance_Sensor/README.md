@@ -4,6 +4,8 @@
 
 ## Preparations
 
+> HARDWARE
+
 - 1x - UNO Board + USB Cable
 - 1x - Protoboard
 - 1x - Obstacle Avoidance Sensor
